@@ -5,9 +5,9 @@ import javax.swing.JFrame;
 public class GameJframe extends JFrame{
 	
 	public GameJframe() {
-		setSize(300, 400);
+		setSize(512, 768);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("飞机大战");
+		setTitle("大强献给小谭的春节礼物");
 		setLocationRelativeTo(null);
 		
 	}

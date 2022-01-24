@@ -14,6 +14,8 @@ public class GameJframe extends JFrame{
 	
 	public static void main(String[] args) {
 		GameJframe f = new GameJframe();
+		GameJpanel p = new GameJpanel();
+		f.add(p);
 		f.setVisible(true);
 	}
 	

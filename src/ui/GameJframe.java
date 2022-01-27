@@ -7,14 +7,14 @@ public class GameJframe extends JFrame{
 	public GameJframe() {
 		setSize(512, 768);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("大强献给小谭的春节礼物");
+		setTitle("飞机大战");
 		setLocationRelativeTo(null);
 		
 	}
 	
 	public static void main(String[] args) {
 		GameJframe f = new GameJframe();
-		GameJpanel p = new GameJpanel();
+		GameJpanel p = new GameJpanel(f);
 		f.add(p);
 		f.setVisible(true);
 	}

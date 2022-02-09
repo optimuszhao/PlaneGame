@@ -13,4 +13,7 @@ public class flyClass {
 	int y;
 	int w;
 	int h;
+	
+	//ÑªÁ¿
+	int hp = 0;
 }

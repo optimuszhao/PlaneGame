@@ -3,11 +3,17 @@ package ui;
 import java.awt.image.BufferedImage;
 
 public class Hero extends flyClass{
+	
+	
+	
 	//通过构造方法基本的初始化好了一个英雄机的图片和宽高
 	public Hero() {
 		img = Util.getImage("/img/hero.png");
 		w = img.getWidth();
 		h = img.getHeight();
+		x=256;
+		y=768-h;
+		hp = 3;
 	}
 	
 	public void moveUp() {
